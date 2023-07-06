@@ -1,0 +1,38 @@
+* {
+    background-color: rgb(24, 163, 11);
+}
+
+header {
+    padding: 40px;
+    background-color: greenyellow;
+    color: orange;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 200px;
+}
+
+h1 {
+    background-color: greenyellow;
+}
+
+li {
+    list-style-type: none;
+    text-align: right;
+    background-color: greenyellow;
+    float: right;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    font-size: larger;
+}
+
+#main {
+    padding: 80px;
+    margin: 40px;
+    color: orange;
+    background-color: rgb(68, 252, 68);
+
+}
+
+h2 {
+    background-color:rgb(68, 252, 68) ;
+}
