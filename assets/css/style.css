@@ -2,6 +2,7 @@
     background-color: rgb(24, 163, 11);
 }
 
+/* Created heading with my name and my nav links as well. Increased the margin at the bottom of the nav links so as to line up with the header itself. */
 header {
     padding: 40px;
     background-color: greenyellow;
