@@ -26,14 +26,29 @@ li {
     font-size: larger;
 }
 
-#main {
-    padding: 80px;
-    margin: 40px;
+.main {
     color: orange;
-    background-color: rgb(68, 252, 68);
-
 }
 
 h2 {
-    background-color:rgb(68, 252, 68) ;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(68, 252, 68);
+    width: 300px;
+    
+}
+
+p {
+    text-align: center;
+    width: 400px;
+    display: inline-block;
+    border: 30px;
+    padding: 100px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
 }
