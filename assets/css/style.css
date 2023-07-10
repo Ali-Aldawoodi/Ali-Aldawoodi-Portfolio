@@ -47,10 +47,6 @@ a {
     border: solid 3px orange;
 }
 
-#about-me .list {
-    linkl
-}
-
 #me-image {
     width: 140px;
     height: auto;
@@ -64,14 +60,16 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
+
+/* Centered text for all three headers.  */
 .headers {
     font-size: 40px;
     background-color: rgb(168, 45, 142);
     width: 300px;
     padding: 30px;
+    text-align: center;
 }
 
 #contact {
@@ -96,6 +94,7 @@ p {
     background-image: url("../digital-marketing-meeting.jpg");
     background-size: 600px;
     background-position: center;
+    margin: 5px;
 }
 
 #calculator {
@@ -110,27 +109,39 @@ p {
     background-size: 200px;
 }
 
+#weather-app {
+    background-image: url("../weather\ app.jpg");
+    background-position: center;
+    background-size: 300px;
+}
+
+#parking-app {
+    background-image: url("../parking\ app.jpg");
+    background-position: center;
+}
 
 /* Added the below boxes.  */
 .top-2 {
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem;
-    padding: 2rem 2rem;
+    margin: 5px;
+    padding: 1rem 1rem;
     text-align: center;
+    
 }
 
 .card-1 {
     display: inline-block;
     border: 3px solid orange;
     padding: 3rem 3rem;
+    width: 200px;
 }
 
 .bottom-2 {
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem;
-    padding: 2rem 2rem;
+    margin: 5px;
+    padding: 1rem 1rem;
     text-align: center;
 
 }
@@ -139,6 +150,15 @@ p {
     display: inline-block;
     border: 3px solid orange;
     padding: 3rem 3rem;
+    width: 200px;
+}
+
+footer #contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    background-image: url("../Purple-in-Design-1.jpeg");
+    background-position: center;
 }
 
 
