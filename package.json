@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "The attached website is my personal portfolio. I have created it to include one project that I have completed as well as four future projects that I plan to work on and create. I have designed the layout to include my work, how to contact me, and a picture of myself! This is all wrapped in a color scheme and box layout that I felt best represented myself.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vite"
   },
@@ -11,6 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite": "^5.0.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
