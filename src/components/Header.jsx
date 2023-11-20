@@ -1,18 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Navigation from './Navigation'
 
-const Header = () => {
+
+export default function Header() {
     return (
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                </ul>
-            </nav>
-        </header>
+        <Navigation
+            links={[
+            <Link key={1} to='/'>About Me</Link>,
+            <Link key={2} to='/contact'>Contact</Link>,
+            <Link key={3} to='/portfolio'>Portfolio</Link>,
+            <Link key={4} to='/reasume'>Resume</Link>,
+
+            ]}
+
+
+
+        />
     );
 };
-
-export default Header;
