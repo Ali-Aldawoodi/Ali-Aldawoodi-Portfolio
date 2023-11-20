@@ -10,7 +10,7 @@ export default function Header() {
             <Link key={1} to='/'>About Me</Link>,
             <Link key={2} to='/contact'>Contact</Link>,
             <Link key={3} to='/portfolio'>Portfolio</Link>,
-            <Link key={4} to='/reasume'>Resume</Link>,
+            <Link key={4} to='/resume'>Resume</Link>,
 
             ]}
 

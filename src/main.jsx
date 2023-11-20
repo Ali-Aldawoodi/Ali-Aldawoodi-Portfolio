@@ -5,7 +5,6 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
 
 import AboutMe from './pages/AboutMe.jsx';
 import Contact from './pages/Contact.jsx';
