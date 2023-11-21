@@ -2,15 +2,13 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <div className='.col.align-self-center'>
-            <div>
-                <h3>Github:</h3>
-                <a href="https://github.com/Ali-Aldawoodi"></a>
+        <div className="d-flex justify-content-center">
+            <div className='pe-3'>
+                <a href="https://github.com/Ali-Aldawoodi">Github</a>
             </div>
 
-            <div>
-            <h3>Linked-in:</h3>
-            <a href="www.linkedin.com/in/ali-aldawoodi-75964420a"></a>
+            <div className='ps-3'>
+            <a href="https://www.linkedin.com/in/ali-aldawoodi-75964420a/">Linked-in</a>
             </div>
         </div>
 
