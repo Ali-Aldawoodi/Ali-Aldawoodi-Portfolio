@@ -6,9 +6,11 @@ import { Outlet } from 'react-router-dom';
 function App() {
     return (
         <>
+        <div id='page-container'>
             <Header />
             <Outlet />
             <Footer />
+            </div>
         </>
     )
 }
