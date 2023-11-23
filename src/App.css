@@ -215,3 +215,12 @@ footer {
     text-align: center;
     justify-content: center;
 }
+
+.card {
+    width: 18rem;
+    height: auto;
+}
+
+nav {
+    background-color: rgb(168, 45, 142);
+}
