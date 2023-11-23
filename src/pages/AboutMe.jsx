@@ -1,4 +1,4 @@
-import myPic from '../../assets/Purple-in-Design-1.jpeg'
+import myPic from '../../assets/IMG_1364.jpeg'
 
 
 export default function AboutMe() {
