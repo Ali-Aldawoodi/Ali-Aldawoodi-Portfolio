@@ -1,7 +1,7 @@
 export default function Portfolio() {
         return (
                 <div>
-                        <section id="work" className="headers mt-2">Work</section>
+                        <section id="work" className="headers mt-2">Projects</section>
                         <div className="card-container">
                                 <div id="refactored" ><a href="https://ali-aldawoodi.github.io/Limitless-Growth/"
                                         alt="man-with-coffee-in-hand">Refactored Code</a></div>
