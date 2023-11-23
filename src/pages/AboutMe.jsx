@@ -1,22 +1,10 @@
-import React, { Suspense } from 'react'
-import { useImage } from 'react-image'
+import myPic from '../../assets/Purple-in-Design-1.jpeg'
 
-function MyImageComponent() {
-    const { src } = useImage({
-        srcList: 'assets/IMG_1364.JPEG',
-    })
-
-    return <img src={src} />
-}
 
 export default function AboutMe() {
     return (
         <div>
-            <div id="me-image" alt="man-with-coffee-in-hand" >
-            <Suspense>
-                <MyImageComponent />
-            </Suspense>
-            </div>
+                <img id="me-image" src={myPic} alt="man-with-coffee-in-hand" />           
 
             <section id="about-me" class="headers">About Me</section>
             <p id="me"> Hello! My name is Ali Aldawoodi and have a passion for coding. I never had realized it, and for most of
