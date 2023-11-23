@@ -1,9 +1,8 @@
 export default function AboutMe() {
     return (
         <div>
-            <section class="img">
-                <div id="me-image" src="assets/calculator app.jpg" alt="man-with-coffee-in-hand" />
-            </section>
+                <img id="me-image" src="assets/calculator app.jpg" alt="man-with-coffee-in-hand" />
+           
 
             <section id="about-me" class="headers">About Me</section>
             <p id="me"> Hello! My name is Ali Aldawoodi and have a passion for coding. I never had realized it, and for most of
