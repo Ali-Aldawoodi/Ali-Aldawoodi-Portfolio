@@ -22,7 +22,7 @@ export default function MyForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className='container border w-25 p-3 '>
+    <form onSubmit={handleSubmit} className='container border w-25 p-3 mt-5'>
         <div>
       <label>Enter your name:
         <input

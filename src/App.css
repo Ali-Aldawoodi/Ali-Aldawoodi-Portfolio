@@ -109,7 +109,7 @@ p {
 }
 
 #calculator {
-    background-image: url("../assets/calculator\ app.jpg");
+    background-image: url("./assets/Screenshot 2023-10-17 202043.png");
     background-size: 200px;
     background-position: center;
 }
@@ -224,3 +224,8 @@ footer {
 nav {
     background-color: rgb(168, 45, 142);
 }
+
+.active {
+    color: #fff !important;
+    background: black !important;
+  }
