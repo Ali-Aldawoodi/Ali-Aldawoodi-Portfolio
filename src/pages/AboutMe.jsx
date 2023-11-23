@@ -2,7 +2,7 @@ export default function AboutMe() {
     return(
         <div>
     <section class="img">
-    <img id="me-image" src="../assets/IMG_1364.JPEG" alt="man-with-coffee-in-hand"/>
+    <img id="me-image" src="assets\IMG_1364.JPEG" alt="man-with-coffee-in-hand"/>
 </section>
 
 <section id="about-me" class="headers">About Me</section>
