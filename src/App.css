@@ -100,32 +100,34 @@ p {
     text-align: center;
     border: solid 6px;
     padding: 100px;
-    background-image: url("../digital-marketing-meeting.jpg");
+    background-image: url("../assets/digital-marketing-meeting.jpg");
     background-size: 600px;
     background-position: center;
     margin: 5px;
+    align-items: center; 
+    justify-content: center;
 }
 
 #calculator {
-    background-image: url("../calculator\ app.jpg");
+    background-image: url("../assets/calculator\ app.jpg");
     background-size: 200px;
     background-position: center;
 }
 
 #one-click-eats {
-    background-image: url("../Screenshot\ 2023-08-17\ 171253.png");
+    background-image: url("../assets/Screenshot\ 2023-08-17\ 171253.png");
     background-position: center;
     background-size: 200px;
 }
 
 #weather-app {
-    background-image: url("../weather\ app.jpg");
+    background-image: url("../assets/weather\ app.jpg");
     background-position: center;
     background-size: 300px;
 }
 
 #parking-app {
-    background-image: url("../parking\ app.jpg");
+    background-image: url("../assets/parking\ app.jpg");
     background-position: center;
 }
 
@@ -203,4 +205,13 @@ footer {
 #page-container {
     position: relative;
     min-height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 1rem 1rem;
+    text-align: center;
+    justify-content: center;
 }
