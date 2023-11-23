@@ -108,8 +108,8 @@ p {
     justify-content: center;
 }
 
-#calculator {
-    background-image: url("./assets/Screenshot 2023-10-17 202043.png");
+#tutor-ratings {
+    background-image: url("../assets/Screenshot 2023-10-17 202043.png");
     background-size: 200px;
     background-position: center;
 }
