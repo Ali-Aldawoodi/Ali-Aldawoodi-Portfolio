@@ -7,8 +7,12 @@ export default function Footer() {
                 <a href="https://github.com/Ali-Aldawoodi">Github</a>
             </div>
         
-            <div className='ps-3'>
+            <div className='ps-3 pe-3'>
             <a href="https://www.linkedin.com/in/ali-aldawoodi-75964420a/">Linked-in</a>
+            </div>
+
+            <div >
+            <a href="https://stackoverflow.com/users/22447484/ali-aldawoodi?tab=profile">Stack Overflow</a>
             </div>
         </footer>
 
