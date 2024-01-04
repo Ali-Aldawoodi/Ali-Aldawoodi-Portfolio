@@ -230,3 +230,11 @@ nav {
     color: #fff !important;
     background: black !important;
   }
+
+  #contact-page-greeting {
+    font-size: 35px;
+  }
+
+  #contact-page-email {
+    padding-top: 3%;
+  }
