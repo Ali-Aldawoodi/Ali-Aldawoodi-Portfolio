@@ -129,7 +129,7 @@ p {
 
 #calculator {
     background-image: url("../assets/calculator-bg-img.png");
-    background-position: center;
+    background-position: 75% -5%;
     background-size: 100%;
 }
 
