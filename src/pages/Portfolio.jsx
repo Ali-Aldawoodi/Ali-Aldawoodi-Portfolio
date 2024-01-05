@@ -12,7 +12,7 @@ export default function Portfolio() {
                         </div>
                         <div className="bottom-2">
                                 <div className="card-2" id="weather-lookup"><a href="https://ali-aldawoodi.github.io/Weather-lookup-app/" alt="image-of-weather-app">Weather Lookup</a></div>
-                                <div className="card-2" id="calculator" ><a href="https://github.com/Ali-Aldawoodi/Calculator-app"
+                                <div className="card-2" id="calculator" ><a href="https://ali-aldawoodi.github.io/Calculator-app/"
                                         alt="calculator">Calculator App</a></div>
                         </div>
                 </div>
