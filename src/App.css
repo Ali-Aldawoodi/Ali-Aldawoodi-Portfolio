@@ -96,12 +96,12 @@ p {
 
 /* Added the below background images and links to boxes. */
 
-#refactored {
+#league-of-legends {
     width: 400px;
     text-align: center;
     border: solid 6px;
     padding: 100px;
-    background-image: url("../assets/digital-marketing-meeting.jpg");
+    background-image: url("../assets/LoL-bg-img.jpg");
     background-size: 600px;
     background-position: center;
     margin: 5px;
@@ -109,8 +109,8 @@ p {
     justify-content: center;
 }
 
-#tutor-ratings {
-    background-image: url("../assets/Screenshot 2023-10-17 202043.png");
+#tech-blog {
+    background-image: url("../assets/tech-blog-bg-img.png");
     background-size: 200px;
     background-position: center;
 }
@@ -121,15 +121,16 @@ p {
     background-size: 200px;
 }
 
-#weather-app {
-    background-image: url("../assets/weather app.jpg");
+#weather-lookup {
+    background-image: url("../assets/weather-lookup-bg-img.png");
     background-position: center;
-    background-size: 300px;
+    background-size: 100%;
 }
 
-#parking-app {
-    background-image: url("../assets/parking app.jpg");
+#calculator {
+    background-image: url("../assets/calculator-bg-img.png");
     background-position: center;
+    background-size: 100%;
 }
 
 /* Added the below boxes.  */
