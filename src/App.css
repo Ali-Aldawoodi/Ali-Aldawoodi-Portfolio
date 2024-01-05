@@ -101,9 +101,9 @@ p {
     text-align: center;
     border: solid 6px;
     padding: 100px;
-    background-image: url("../assets/LoL-bg-img.jpg");
-    background-size: 600px;
-    background-position: center;
+    background-image: url("../assets/lol-7.jpg");
+    background-size: 139%;
+    background-position: top;
     margin: 5px;
     align-items: center; 
     justify-content: center;
